@@ -12,6 +12,11 @@ import Link from "next/link"
 
 const motivationalQuotes = [
   {
+    quote: "Cùng nhau cố gắng nhé! 💪",
+    author: "DangNgocKhoi",
+    translation: "A6 22-25 Binh Duong ",
+  },
+  {
     quote: "Trí thức là sức mạnh",
     author: "F.Bacon",
     translation: "Knowledge is power",
@@ -36,6 +41,11 @@ const motivationalQuotes = [
     author: "Benjamin Franklin",
     translation: "An investment in knowledge pays the best interest",
   },
+  {
+    quote: "Cùng nhau cố gắng nhé! 💪",
+    author: "DangNgocKhoi",
+    translation: "A6 22-25 Binh Duong",
+  },
 ]
 
 const newsArticles: NewsArticle[] = [
@@ -54,7 +64,7 @@ const newsArticles: NewsArticle[] = [
     title: "LỊCH THI TỐT NGHIỆP THPT năm 2025",
     excerpt: "Lịch thi tốt nghiệp THPT năm 2025 đã được Bộ Giáo dục và Đào tạo công bố, với nhiều điểm mới và thay đổi quan trọng. Theo quy định của Bộ GDĐT, Kỳ thi tốt nghiệp THPT năm 2025 được tổ chức vào các ngày 25, 26, 27, 28/6.",
     category: "Thông tin kỳ thi",
-    date: "2025-06-12",
+    date: "2025-06-16",
     readTime: "15 phút đọc",
     priority: "high",
     articleUrl: "https://xaydungchinhsach.chinhphu.vn/chi-tiet-lich-thi-tot-nghiep-thpt-nam-2025-119250324122530018.htm"
@@ -218,8 +228,8 @@ export default function THPT2025Countdown() {
   const shareCountdown = () => {
     if (navigator.share) {
       navigator.share({
-        title: `Đếm ngược thi THPT ${examDate.getFullYear()}`,
-        text: `Còn ${timeLeft.days} ngày nữa là đến kỳ thi THPT ${examDate.getFullYear()}! Cùng nhau cố gắng nhé! 💪`,
+        title: `Đếm ngược ngày thi Tốt nghiệp THPT ${examDate.getFullYear()}`,
+        text: `Còn ${timeLeft.days} ngày nữa là đến ngày thi Tốt nghiệp THPT ${examDate.getFullYear()}! Cùng nhau cố gắng nhé! 💪`,
         url: window.location.href,
       })
     }
@@ -286,7 +296,7 @@ export default function THPT2025Countdown() {
             </div>
             <div>
               <h1 className="text-xl font-bold text-white">Đếm Ngược Ngày Thi Tốt Nghiệp THPT {examDate.getFullYear()}</h1>
-              <p className="text-white/70 text-sm">Trang web đếm ngược ngày thi tốt nghiệp THPT {examDate.getFullYear()}</p>
+              <p className="text-white/70 text-sm">A6 22-25 Bình Dương</p>
             </div>
           </div>
           <div className="flex items-center space-x-2">
@@ -357,19 +367,19 @@ export default function THPT2025Countdown() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
               <div className="bg-black/30 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:bg-black/40 transition-all duration-300 transform hover:scale-105">
                 <div className="text-4xl md:text-5xl font-bold text-white mb-2">{timeLeft.days}</div>
-                <div className="text-white/80 uppercase tracking-wider text-sm font-medium">NGÀY</div>
+                <div className="text-white/80 uppercase tracking-wider text-sm font-medium">Ngày</div>
               </div>
               <div className="bg-black/30 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:bg-black/40 transition-all duration-300 transform hover:scale-105">
                 <div className="text-4xl md:text-5xl font-bold text-white mb-2">{timeLeft.hours}</div>
-                <div className="text-white/80 uppercase tracking-wider text-sm font-medium">GIỜ</div>
+                <div className="text-white/80 uppercase tracking-wider text-sm font-medium">Giờ</div>
               </div>
               <div className="bg-black/30 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:bg-black/40 transition-all duration-300 transform hover:scale-105">
                 <div className="text-4xl md:text-5xl font-bold text-white mb-2">{timeLeft.minutes}</div>
-                <div className="text-white/80 uppercase tracking-wider text-sm font-medium">PHÚT</div>
+                <div className="text-white/80 uppercase tracking-wider text-sm font-medium">Phút</div>
               </div>
               <div className="bg-black/30 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:bg-black/40 transition-all duration-300 transform hover:scale-105">
                 <div className="text-4xl md:text-5xl font-bold text-white mb-2">{timeLeft.seconds}</div>
-                <div className="text-white/80 uppercase tracking-wider text-sm font-medium">GIÂY</div>
+                <div className="text-white/80 uppercase tracking-wider text-sm font-medium">Giây</div>
               </div>
             </div>
           </div>
@@ -437,11 +447,11 @@ export default function THPT2025Countdown() {
             <div className="flex items-center space-x-4">
               <Button variant="ghost" size="sm" className="text-white/70 ">
                 <Heart className="h-4 w-4 mr-2" />
-                Ủng hộ
+                A6 22-25 Bình Dương
               </Button>
               <div className="flex space-x-2">
                 <div className="w-8 h-8 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center">
-                  <Link href="https://github.com/anhkhoatqt11/demnguockithi/tree/master" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://dangngockhoi.online" target="_blank" rel="noopener noreferrer">
                     <GithubIcon className="h-4 w-4 text-white" />
                   </Link>
                 </div>
