@@ -296,7 +296,7 @@ export default function THPT2025Countdown() {
             </div>
             <div>
               <h1 className="text-xl font-bold text-white">Đếm Ngược Ngày Thi Tốt Nghiệp THPT {examDate.getFullYear()}</h1>
-              <p className="text-white/70 text-sm">A6 22-25 Bình Dương</p>
+              <p className="text-white/70 text-sm">DangNgocKhoi</p>
             </div>
           </div>
           <div className="flex items-center space-x-2">
