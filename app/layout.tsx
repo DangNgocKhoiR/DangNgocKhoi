@@ -8,8 +8,8 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Đếm ngược ngày thi Tốt nghiệp THPT 2025 | Countdown to National Exam 2025",
-  description: "A6 22-25 Bình Dương",
+  title: "Đếm ngược ngày thi Tốt nghiệp THPT 2025",
+  description: "DangNgocKhoi",
   keywords: "THPT 2025, thi tốt nghiệp, đếm ngược, học tập, thi cử, Việt Nam",
 }
 
