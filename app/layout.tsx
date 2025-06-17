@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Đếm ngược ngày thi Tốt nghiệp THPT 2025",
-  description: "DangNgocKhoi",
+  description: "Countdown to High School Graduation Exam 2025",
   keywords: "THPT 2025, thi tốt nghiệp, đếm ngược, học tập, thi cử, Việt Nam",
 }
 
