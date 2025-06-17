@@ -14,7 +14,7 @@ const motivationalQuotes = [
   {
     quote: "Cùng nhau cố gắng nhé! 💪",
     author: "DangNgocKhoi",
-    translation: "A6 22-25 Binh Duong ",
+    translation: "Let's work hard together! 💪",
   },
   {
     quote: "Trí thức là sức mạnh",
@@ -44,7 +44,7 @@ const motivationalQuotes = [
   {
     quote: "Cùng nhau cố gắng nhé! 💪",
     author: "DangNgocKhoi",
-    translation: "A6 22-25 Binh Duong",
+    translation: "Let's work hard together! 💪",
   },
 ]
 
@@ -447,7 +447,7 @@ export default function THPT2025Countdown() {
             <div className="flex items-center space-x-4">
               <Button variant="ghost" size="sm" className="text-white/70 ">
                 <Heart className="h-4 w-4 mr-2" />
-                A6 22-25 Bình Dương
+               DangNgocKhoi
               </Button>
               <div className="flex space-x-2">
                 <div className="w-8 h-8 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center">
